@@ -45,7 +45,7 @@ const MissingForm = () => {
     }
 
     const handleFormSubmit = (imageUrl) => {
-        fetch('http://127.0.0.1:5000/missing/create', {
+        fetch('https://lostandfoundpetslbapi.herokuapp.com/missing/create', {
             method: 'POST',
             body: JSON.stringify({
                 type: type,

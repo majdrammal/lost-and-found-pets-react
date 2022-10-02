@@ -21,7 +21,7 @@ const MissingPage = () => {
     }
 
     const getInfo = () => {
-        fetch('http://127.0.0.1:5000/missing').then(response => {
+        fetch('https://lostandfoundpetslbapi.herokuapp.com/missing').then(response => {
             if (response.ok) {
                 return response.json()
             }

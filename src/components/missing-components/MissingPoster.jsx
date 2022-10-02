@@ -14,7 +14,7 @@ const MissingPoster = ({ index, type, image, name, breed, gender, age, date, loc
     }
 
     function deletePost() {
-        fetch(`http://localhost:5000/missing/${index}`, {
+        fetch(`https://lostandfoundpetslbapi.herokuapp.com/missing/${index}`, {
             method: 'POST',
             body: JSON.stringify({
                 id: index 
