@@ -372,7 +372,7 @@ textarea {
 }
 
 .missing__container, .found__container {
-  min-height: calc(100vh - 25vh - 20.9vh);
+  min-height: calc(100vh - 25vh - 20vh);
 }
 
 .missing__sub-title, .found__sub-title, .report__sub-title {
